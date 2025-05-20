@@ -2,12 +2,15 @@
 
 /**
  * _puts - function name
- * @str:function parametr
+ * @str:function parameter
+ * Return: Nothing
  */
 void _puts(char *str)
 {
 int i;
 for (i = 0; str[i] != '\0'; i++)
-putchar(str[i]);
+{
+_putchar(str[i]);
+}
 putchar('\n');
 }
